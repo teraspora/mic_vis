@@ -1,0 +1,30 @@
+body {
+    background-color: #448eff;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#player {
+    width: 512px;
+    height: 64px;
+    background: #000;
+    padding: 8px;
+    margin: 32px auto;
+}
+
+audio {
+    width: 512px;
+    background: #000;
+}
+
+canvas {
+    width: 1024px;
+    height: 512px;
+    background:#010012;
+    margin: 32px auto;
+    border: 2px ridge #ffddaa;
+    border-radius: 5px;
+}
